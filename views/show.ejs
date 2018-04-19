@@ -8,11 +8,7 @@
 
 <% campground.comments.forEach(function(comment){ %>
 	
-	<p>
-
-		<strong><%= comment.author %></strong> - <strong><%= comment.text %></strong>
-
-	</p>
+	<p><strong><%= comment.author %></strong> - <%= comment.text %></p>
 
 <% }) %>
 
