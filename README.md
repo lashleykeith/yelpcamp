@@ -10,6 +10,8 @@ The issue with this app is that I made the updates in the video https://www.yout
 - Click Sign Up and fill in the information and on the admin code section center `secretcode123`.
 ![screenshot_3](https://user-images.githubusercontent.com/21030885/45027314-0b7d6280-b07c-11e8-8d4c-dca4adfc6e5a.jpg)
 - Go to Create New Campground and enter all the information.
+![screenshot_4](https://user-images.githubusercontent.com/21030885/45027322-10daad00-b07c-11e8-81ad-b873b401474c.jpg)
 ## Error
 - you will notice that there is an error.  It claims that it is an invalid address.
+![screenshot_6](https://user-images.githubusercontent.com/21030885/45027336-16d08e00-b07c-11e8-8eda-4d5f407cce59.jpg)
 - There are two places that this error might be in.  One is in `routes/campgrounds.js`  the other is `views\campgrounds\new.ejs`.
