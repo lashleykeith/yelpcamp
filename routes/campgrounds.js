@@ -20,9 +20,9 @@ var upload = multer({ storage: storage, fileFilter: imageFilter})
 
 var cloudinary = require('cloudinary');
 cloudinary.config({ 
-  cloud_name: 'lashleykeith', 
-  api_key: '966391259264238', 
-  api_secret: 'EsHHldrE1EPT8uqDLcfgwVcqcZI'
+  cloud_name: 'cloudname', 
+  api_key: 'apikey', 
+  api_secret: 'apisecret'
 }); 
 var options = {
   provider: 'google',
