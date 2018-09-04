@@ -6,7 +6,9 @@ The issue with this app is that I made the updates in the video https://www.yout
 - This app is not loading the images.  To run this app first go into the home folder and type `node app.js`.
 - Go to `localhost:4900` in your browser.
 - You will see this page click `View All Campgrounds`
+![screenshot_1](https://user-images.githubusercontent.com/21030885/45027301-015b6400-b07c-11e8-9fc7-1efaf9d5350b.jpg)
 - Click Sign Up and fill in the information and on the admin code section center `secretcode123`.
+![screenshot_3](https://user-images.githubusercontent.com/21030885/45027314-0b7d6280-b07c-11e8-8d4c-dca4adfc6e5a.jpg)
 - Go to Create New Campground and enter all the information.
 ## Error
 - you will notice that there is an error.  It claims that it is an invalid address.
