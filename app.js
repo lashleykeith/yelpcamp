@@ -16,14 +16,15 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
     
-mongoose.connect("mongodb://localhost/yelp_camp_v6");
+mongoose.connect("mongodb://localhost/yelp_camp_v11");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
-seedDB(); //seed the database
+// seedDB(); //seed the database
 
+app.locals.moment = require('moment');
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
     secret: "Once again Rusty wins cutest dog!",
@@ -49,14 +50,12 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 
 
 app.listen(4900, function(){
-	console.log("The YelpCamp Server Has Started! ");
+  console.log("The YelpCamp Server Has Started! ");
 });
 
-
-// https://github.com/nax3t/background-slider
-// https://developer.mozilla.org/en-US/docs/Web/CSS/animation
-/* 
-
-
-
- */
+/*<% if(currentUser && currentUser.isAdmin) { %>
+    <h1>You're an admin!</h1>
+  <% } %>
+  */
+// Reset Password
+//https://www.youtube.com/watch?v=UV9FvlTySGg&t=425s
