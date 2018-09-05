@@ -50,9 +50,9 @@ cloudinary.config({
 });*/
 var cloudinary = require('cloudinary');
 cloudinary.config({ 
-  cloud_name: 'lashleykeith', 
-  api_key: '966391259264238', 
-  api_secret: 'EsHHldrE1EPT8uqDLcfgwVcqcZI'
+  cloud_name: // Your cloud name here, 
+  api_key: // Your api_key here, 
+  api_secret: // Your api_secret,
 });
 
 //----------------------------------------------------------------------------//
