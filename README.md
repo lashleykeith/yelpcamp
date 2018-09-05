@@ -1,5 +1,8 @@
 # yelpcamp
 
+## Possible solution
+https://ide.c9.io/alexmachin/yelpcamp-application
+
 ## Current issues
 The issue with this app is that I made the updates in the video https://www.youtube.com/watch?v=RHd4rP9U9SA&t=124s.  I am trying to udate this with the geocoder.
 - Go to https://cloudinary.com/ and get a `cloud_name`, `api_key`, and `api_secret` and enter it here.
