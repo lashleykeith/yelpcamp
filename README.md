@@ -1,4 +1,4 @@
-# yelpcamp
+# yelp clone
 
 ## Possible solution
 https://ide.c9.io/alexmachin/yelpcamp-application
