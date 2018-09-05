@@ -10,7 +10,7 @@ The issue with this app is that I made the updates in the video https://www.yout
 - To run this app first go into the home folder and type `node app.js`.
 - Go to `localhost:4900` in your browser.
 - You will see this page click `View All Campgrounds`
-![screenshot_1](https://user-images.githubusercontent.com/21030885/45027301-015b6400-b07c-11e8-9fc7-1efaf9d5350b.jpg)
+![screenshot_10](https://user-images.githubusercontent.com/21030885/45101885-6b046c80-b167-11e8-9e45-396125e4bbda.jpg)
 - Home page
 ![screenshot_9](https://user-images.githubusercontent.com/21030885/45101218-ff6dcf80-b165-11e8-865f-94fb375920e3.jpg)
 
