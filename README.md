@@ -1,10 +1,9 @@
 # yelp clone
 
-## Possible solution
-https://ide.c9.io/alexmachin/yelpcamp-application
 
-## Current issues
-The issue with this app is that I made the updates in the video https://www.youtube.com/watch?v=RHd4rP9U9SA&t=124s.  I am trying to udate this with the geocoder.
+
+## Photo upload solved as of 9/6/2018
+This code will solve the issues you will find in this tutorial uploading images while keeping the geocode function.  You will still have to add your own cloudinary api keys and google map api keys to use this code.  https://www.youtube.com/watch?v=RHd4rP9U9SA&t=124s.  
 - Go to https://cloudinary.com/ and get a `cloud_name`, `api_key`, and `api_secret` and enter it here.
 ![screenshot_7](https://user-images.githubusercontent.com/21030885/45027868-a62a7100-b07d-11e8-969d-9274174a6f28.jpg)
 - To run this app first go into the home folder and type `node app.js`.
